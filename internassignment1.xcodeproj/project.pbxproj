@@ -12,6 +12,8 @@
 		5EC53C781CD0695A00CDE287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC53C761CD0695A00CDE287 /* Main.storyboard */; };
 		5EC53C7A1CD0695A00CDE287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC53C791CD0695A00CDE287 /* Assets.xcassets */; };
 		5EC53C7D1CD0695A00CDE287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC53C7B1CD0695A00CDE287 /* LaunchScreen.storyboard */; };
+		5EC53C851CD0799300CDE287 /* MyTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC53C841CD0799300CDE287 /* MyTableVC.swift */; };
+		5EC53CA51CD0A01B00CDE287 /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC53CA41CD0A01B00CDE287 /* ParkingLot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5EC53C791CD0695A00CDE287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC53C7C1CD0695A00CDE287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC53C7E1CD0695A00CDE287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC53C841CD0799300CDE287 /* MyTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableVC.swift; sourceTree = "<group>"; };
+		5EC53CA41CD0A01B00CDE287 /* ParkingLot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5EC53C791CD0695A00CDE287 /* Assets.xcassets */,
 				5EC53C7B1CD0695A00CDE287 /* LaunchScreen.storyboard */,
 				5EC53C7E1CD0695A00CDE287 /* Info.plist */,
+				5EC53C841CD0799300CDE287 /* MyTableVC.swift */,
+				5EC53CA41CD0A01B00CDE287 /* ParkingLot.swift */,
 			);
 			path = internassignment1;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				5EC53C751CD0695A00CDE287 /* ViewController.swift in Sources */,
 				5EC53C731CD0695A00CDE287 /* AppDelegate.swift in Sources */,
+				5EC53CA51CD0A01B00CDE287 /* ParkingLot.swift in Sources */,
+				5EC53C851CD0799300CDE287 /* MyTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				5EC53C831CD0695A00CDE287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
